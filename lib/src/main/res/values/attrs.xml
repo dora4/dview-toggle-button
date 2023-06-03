@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <declare-styleable name="DoraToggleButton">
+        <attr name="dora_uncheckColor" format="color|reference" />
+        <attr name="dora_checkedColor" format="color|reference" />
+        <attr name="dora_checkLineColor" format="color|reference" />
+        <attr name="dora_checkLineWidth" format="dimension|reference" />
+        <attr name="dora_uncheckCircleColor" format="color|reference" />
+        <attr name="dora_uncheckCircleWidth" format="dimension|reference" />
+        <attr name="dora_uncheckCircleRadius" format="dimension|reference" />
+        <attr name="dora_borderWidth" format="dimension|reference" />
+        <attr name="dora_checked" format="boolean" />
+        <attr name="dora_enableShadow" format="boolean" />
+        <attr name="dora_shadowRadius" format="dimension|reference" />
+        <attr name="dora_shadowColor" format="color|reference" />
+        <attr name="dora_buttonColor" format="color|reference" />
+        <attr name="dora_showIndicator" format="boolean" />
+        <attr name="dora_backgroundColor" format="color|reference" />
+        <attr name="dora_enableEffect" format="boolean" />
+        <attr name="dora_effectDuration" format="integer|reference" />
+    </declare-styleable>
+</resources>
