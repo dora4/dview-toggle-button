@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "dora.widget"
+    namespace = "dora.widget.togglebutton"
     compileSdk = 32
 
     defaultConfig {
