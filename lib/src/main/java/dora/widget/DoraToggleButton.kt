@@ -16,6 +16,7 @@ import android.util.TypedValue
 import android.view.MotionEvent
 import android.view.View
 import android.widget.Checkable
+import dora.widget.togglebutton.R
 
 class DoraToggleButton @JvmOverloads constructor(
     context: Context,

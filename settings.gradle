@@ -23,5 +23,5 @@ dependencyResolutionManagement {
         maven { url "https://maven.aliyun.com/repository/jcenter" }
     }
 }
-rootProject.name = "dview-titlebar"
+rootProject.name = "dview-toggle-button"
 include ':lib'
