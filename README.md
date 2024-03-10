@@ -28,7 +28,7 @@ dependencies {
                 android:layout_centerVertical="true"
                 app:dview_checked="true"
                 app:dview_uncheckColor="@color/light_gray"
-                app:dview_background="@color/light_gray"
+                app:dview_backgroundColor="@color/light_gray"
                 app:dview_checkedColor="@color/colorPrimary"
                 app:dview_borderWidth="2dp"
                 app:dview_showIndicator="false" />
