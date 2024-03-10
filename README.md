@@ -20,7 +20,7 @@ dependencies {
 #### 使用方式
 
 ```xml
-   <com.dorachat.dorachat.widget.DoraToggleButton
+   <dora.widget.DoraToggleButton
         android:layout_width="41dp"
         android:layout_height="26dp"
         android:layout_alignParentEnd="true"
