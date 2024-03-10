@@ -801,75 +801,75 @@ class DoraToggleButton @JvmOverloads constructor(
     private fun initAttrs(context: Context, attrs: AttributeSet?) {
         val a = context.obtainStyledAttributes(attrs, R.styleable.DoraToggleButton)
         enableShadow = a.getBoolean(
-            R.styleable.DoraToggleButton_dora_enableShadow,
+            R.styleable.DoraToggleButton_dview_enableShadow,
             true
         )
         uncheckCircleColor = a.getColor(
-            R.styleable.DoraToggleButton_dora_uncheckCircleColor,
+            R.styleable.DoraToggleButton_dview_uncheckCircleColor,
             -0x555556
         )
         uncheckCircleWidth = a.getDimensionPixelSize(
-            R.styleable.DoraToggleButton_dora_uncheckCircleWidth,
+            R.styleable.DoraToggleButton_dview_uncheckCircleWidth,
             dp2px(getContext(), 1.5f)
         )
         uncheckCircleOffsetX = dp2px(getContext(), 10f).toFloat()
         uncheckCircleRadius = a.getDimensionPixelSize(
-            R.styleable.DoraToggleButton_dora_uncheckCircleRadius,
+            R.styleable.DoraToggleButton_dview_uncheckCircleRadius,
             dp2px(getContext(), 4f)
         ).toFloat()
         checkLineOffsetX = dp2px(getContext(), 4f).toFloat()
         checkLineOffsetY = dp2px(getContext(), 4f).toFloat()
         shadowRadius = a.getDimensionPixelSize(
-            R.styleable.DoraToggleButton_dora_shadowRadius,
+            R.styleable.DoraToggleButton_dview_shadowRadius,
             dp2px(getContext(), 2.5f)
         )
         shadowColor = a.getColor(
-            R.styleable.DoraToggleButton_dora_shadowColor,
+            R.styleable.DoraToggleButton_dview_shadowColor,
             0X33000000
         )
         uncheckColor = a.getColor(
-            R.styleable.DoraToggleButton_dora_uncheckColor,
+            R.styleable.DoraToggleButton_dview_uncheckColor,
             -0x222223
         )
         checkedColor = a.getColor(
-            R.styleable.DoraToggleButton_dora_checkedColor,
+            R.styleable.DoraToggleButton_dview_checkedColor,
             -0xae2c99
         )
         borderWidth = a.getDimensionPixelSize(
-            R.styleable.DoraToggleButton_dora_borderWidth,
+            R.styleable.DoraToggleButton_dview_borderWidth,
             dp2px(getContext(), 1f)
         )
         checkLineColor = a.getColor(
-            R.styleable.DoraToggleButton_dora_checkLineColor,
+            R.styleable.DoraToggleButton_dview_checkLineColor,
             Color.WHITE
         )
         checkLineWidth = a.getDimensionPixelSize(
-            R.styleable.DoraToggleButton_dora_checkLineWidth,
+            R.styleable.DoraToggleButton_dview_checkLineWidth,
             dp2px(getContext(), 1f)
         )
         checkLineLength = dp2px(getContext(), 6f).toFloat()
         buttonColor = a.getColor(
-            R.styleable.DoraToggleButton_dora_buttonColor,
+            R.styleable.DoraToggleButton_dview_buttonColor,
             Color.WHITE
         )
         effectDuration = a.getInt(
-            R.styleable.DoraToggleButton_dora_effectDuration,
+            R.styleable.DoraToggleButton_dview_effectDuration,
             300
         )
         isChecked = a.getBoolean(
-            R.styleable.DoraToggleButton_dora_checked,
+            R.styleable.DoraToggleButton_dview_checked,
             false
         )
         showIndicator = a.getBoolean(
-            R.styleable.DoraToggleButton_dora_showIndicator,
+            R.styleable.DoraToggleButton_dview_showIndicator,
             true
         )
         bgColor = a.getColor(
-            R.styleable.DoraToggleButton_dora_backgroundColor,
+            R.styleable.DoraToggleButton_dview_backgroundColor,
             Color.WHITE
         )
         enableEffect = a.getBoolean(
-            R.styleable.DoraToggleButton_dora_enableEffect,
+            R.styleable.DoraToggleButton_dview_enableEffect,
             true
         )
         a.recycle()
