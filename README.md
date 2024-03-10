@@ -21,14 +21,15 @@ dependencies {
 
 ```xml
    <dora.widget.DoraToggleButton
-        android:layout_width="41dp"
-        android:layout_height="26dp"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        app:dora_checked="true"
-        app:dora_uncheck_color="@color/light_gray"
-        app:dora_background="@color/light_gray"
-        app:dora_checked_color="@color/colorPrimary"
-        app:dora_border_width="2dp"
-        app:dora_show_indicator="false" />
+                android:id="@+id/tb_type_select"
+                android:layout_width="41dp"
+                android:layout_height="26dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                app:dview_checked="true"
+                app:dview_uncheck_color="@color/light_gray"
+                app:dview_background="@color/light_gray"
+                app:dview_checked_color="@color/colorPrimary"
+                app:dview_border_width="2dp"
+                app:dview_show_indicator="false" />
 ```
