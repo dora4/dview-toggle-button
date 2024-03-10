@@ -30,6 +30,6 @@ dependencies {
                 app:dview_uncheckColor="@color/light_gray"
                 app:dview_background="@color/light_gray"
                 app:dview_checkedColor="@color/colorPrimary"
-                app:dview_border_width="2dp"
-                app:dview_show_indicator="false" />
+                app:dview_borderWidth="2dp"
+                app:dview_showIndicator="false" />
 ```
