@@ -51,7 +51,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 背景颜色。
      */
-    private var bgColor = 0
+    var bgColor = 0
         set(value) {
             field = value
             invalidate()
@@ -60,7 +60,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 未选中的颜色。
      */
-    private var uncheckColor = 0
+    var uncheckColor = 0
         set(value) {
             field = value
             invalidate()
@@ -69,7 +69,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 选中的颜色。
      */
-    private var checkedColor = 0
+    var checkedColor = 0
         set(value) {
             field = value
             invalidate()
@@ -78,7 +78,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 边框的宽度。
      */
-    private var borderWidth = 0
+    var borderWidth = 0
         set(value) {
             field = value
             invalidate()
@@ -87,7 +87,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 选中指示器的颜色。
      */
-    private var checkLineColor = 0
+    var checkLineColor = 0
         set(value) {
             field = value
             invalidate()
@@ -96,7 +96,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 选中指示器的宽度。
      */
-    private var checkLineWidth = 0
+    var checkLineWidth = 0
         set(value) {
             field = value
             invalidate()
@@ -105,7 +105,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 选中指示器的长度。
      */
-    private var checkLineLength = 0f
+    var checkLineLength = 0f
         set(value) {
             field = value
             invalidate()
@@ -114,7 +114,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 选中指示器的x偏移。
      */
-    private var checkLineOffsetX = 0f
+    var checkLineOffsetX = 0f
         set(value) {
             field = value
             invalidate()
@@ -123,7 +123,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 选中指示器的y偏移。
      */
-    private var checkLineOffsetY = 0f
+    var checkLineOffsetY = 0f
         set(value) {
             field = value
             invalidate()
@@ -132,7 +132,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 未选中指示器的颜色。
      */
-    private var uncheckCircleColor = 0
+    var uncheckCircleColor = 0
         set(value) {
             field = value
             invalidate()
@@ -141,7 +141,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 未选择指示器的宽度。
      */
-    private var uncheckCircleWidth = 0
+    var uncheckCircleWidth = 0
         set(value) {
             field = value
             invalidate()
@@ -150,7 +150,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 未选中指示器x偏移。
      */
-    private var uncheckCircleOffsetX = 0f
+    var uncheckCircleOffsetX = 0f
         set(value) {
             field = value
             invalidate()
@@ -159,7 +159,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 未选中指示器的半径。
      */
-    private var uncheckCircleRadius = 0f
+    var uncheckCircleRadius = 0f
         set(value) {
             field = value
             invalidate()
@@ -168,7 +168,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 按钮可以滑动到的最小的x轴位置。
      */
-    private var buttonMinX = 0f
+    var buttonMinX = 0f
         set(value) {
             field = value
             invalidate()
@@ -177,7 +177,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 按钮可以滑动到的最大的x轴位置。
      */
-    private var buttonMaxX = 0f
+    var buttonMaxX = 0f
         set(value) {
             field = value
             invalidate()
@@ -204,7 +204,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 是否显示指示器圆圈和线
      */
-    private var showIndicator = false
+    var showIndicator = false
         set(value) {
             field = value
             invalidate()
@@ -218,7 +218,7 @@ class DoraToggleButton @JvmOverloads constructor(
     /**
      * 按钮的颜色，默认白色。
      */
-    private var buttonColor = Color.WHITE
+    var buttonColor = Color.WHITE
         set(value) {
             field = value
             invalidate()
