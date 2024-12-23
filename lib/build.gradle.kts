@@ -6,11 +6,11 @@ plugins {
 
 android {
     namespace = "dora.widget.togglebutton"
-    compileSdk = 32
+    compileSdk = 33
 
     defaultConfig {
         minSdk = 21
-        targetSdk = 32
+        targetSdk = 33
     }
     buildTypes {
         release {
@@ -25,7 +25,6 @@ android {
 }
 
 dependencies {
-    implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
 }
 
@@ -36,7 +35,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dora4"
                 artifactId = "dview-toggle-button"
-                version = "1.3"
+                version = "1.4"
             }
         }
     }
