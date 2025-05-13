@@ -1,6 +1,7 @@
 dview-toggle-button
 ![Release](https://jitpack.io/v/dora4/dview-toggle-button.svg)
 --------------------------------
+![DORA视图 二极守门人](https://github.com/user-attachments/assets/38916076-6e16-4836-bd74-a5d6e7b774ee)
 
 ##### 卡名：Dora视图 ToggleButton 
 ###### 卡片类型：效果怪兽
